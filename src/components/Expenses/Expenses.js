@@ -6,7 +6,7 @@ import ExpenseList from "./ExpenseList";
 import ExpensesChart from "./ExpensesChart";
 
 const Expenses = (props) => {
-  const [selectedDate, setSelectedDate] = useState("2020");
+  const [selectedDate, setSelectedDate] = useState("2021");
 
   const saveSelectedDate = (newDate) => {
     setSelectedDate(newDate);
