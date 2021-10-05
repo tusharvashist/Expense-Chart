@@ -1,0 +1,35 @@
+.expense-list-item {
+  list-style: none;
+
+  .expense_data {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b4b4b;
+
+    padding: 10px;
+    margin: 10px;
+
+    .expense_name {
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+    .amount {
+      padding: 10px;
+    }
+  }
+  @media (min-width: 580px) {
+    .expense_data {
+      flex-direction: row;
+
+      .expense_name {
+        width: 100%;
+        text-align: left;
+        flex: 1;
+      }
+    }
+  }
+}

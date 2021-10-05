@@ -1,0 +1,34 @@
+.new-expense_controls {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  //   gap: 3rem;
+
+  .new-expense_control {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 33%;
+
+    label {
+      padding: 10px;
+    }
+
+    input {
+      border-radius: 10px;
+      border: 1px solid transparent;
+      height: 35px;
+      padding: 10px;
+    }
+    input:focus {
+      outline: none;
+      border: 1px solid rgb(23, 126, 173);
+    }
+  }
+  .new-expense_action {
+    flex: 1 0 100%;
+    padding: 20px 10px;
+  }
+}
